@@ -1,3 +1,4 @@
+```
 ﻿### 电商基础版 第一版
 
 │  .gitignore
@@ -144,100 +145,6 @@
 │  │  │  logback.xml
 │  │  │  mmall.properties
 │  │  │  zfbinfo.properties
-│  │  │  
-│  │  ├─com
-│  │  │  ├─alipay
-│  │  │  │  └─demo
-│  │  │  │      └─trade
-│  │  │  │              DemoHbRunner.class
-│  │  │  │              Main$1.class
-│  │  │  │              Main.class
-│  │  │  │              
-│  │  │  └─mmall
-│  │  │      ├─common
-│  │  │      │      Const$AlipayCallback.class
-│  │  │      │      Const$Cart.class
-│  │  │      │      Const$OrderStatusEnum.class
-│  │  │      │      Const$PaymentTypeEnum.class
-│  │  │      │      Const$PayPlatformEnum.class
-│  │  │      │      Const$ProductListOrderBy.class
-│  │  │      │      Const$ProductStatusEnum.class
-│  │  │      │      Const$Role.class
-│  │  │      │      Const.class
-│  │  │      │      ResponseCode.class
-│  │  │      │      ServerResponse.class
-│  │  │      │      TokenCache$1.class
-│  │  │      │      TokenCache.class
-│  │  │      │      
-│  │  │      ├─controller
-│  │  │      │  ├─backend
-│  │  │      │  │      CategoryManageController.class
-│  │  │      │  │      OrderManageController.class
-│  │  │      │  │      ProductManageController.class
-│  │  │      │  │      UserManageController.class
-│  │  │      │  │      
-│  │  │      │  └─portal
-│  │  │      │          CartController.class
-│  │  │      │          OrderController.class
-│  │  │      │          ProductController.class
-│  │  │      │          ShippingController.class
-│  │  │      │          UserController.class
-│  │  │      │          
-│  │  │      ├─dao
-│  │  │      │      CartMapper.class
-│  │  │      │      CategoryMapper.class
-│  │  │      │      OrderItemMapper.class
-│  │  │      │      OrderMapper.class
-│  │  │      │      PayInfoMapper.class
-│  │  │      │      ProductMapper.class
-│  │  │      │      ShippingMapper.class
-│  │  │      │      UserMapper.class
-│  │  │      │      
-│  │  │      ├─pojo
-│  │  │      │      Cart.class
-│  │  │      │      Category.class
-│  │  │      │      Order.class
-│  │  │      │      OrderItem.class
-│  │  │      │      PayInfo.class
-│  │  │      │      Product.class
-│  │  │      │      Shipping.class
-│  │  │      │      User.class
-│  │  │      │      
-│  │  │      ├─service
-│  │  │      │  │  ICartService.class
-│  │  │      │  │  ICategoryService.class
-│  │  │      │  │  IFileService.class
-│  │  │      │  │  IOrderService.class
-│  │  │      │  │  IProductService.class
-│  │  │      │  │  IShippingService.class
-│  │  │      │  │  IUserService.class
-│  │  │      │  │  
-│  │  │      │  └─impl
-│  │  │      │          CartServiceImpl.class
-│  │  │      │          CategoryServiceImpl.class
-│  │  │      │          FileServiceImpl.class
-│  │  │      │          OrderServiceImpl$1.class
-│  │  │      │          OrderServiceImpl.class
-│  │  │      │          ProductServiceImpl.class
-│  │  │      │          ShippingServiceImpl.class
-│  │  │      │          UserServiceImpl.class
-│  │  │      │          
-│  │  │      ├─util
-│  │  │      │      BigDecimalUtil.class
-│  │  │      │      DateTimeUtil.class
-│  │  │      │      FTPUtil.class
-│  │  │      │      MD5Util.class
-│  │  │      │      PropertiesUtil.class
-│  │  │      │      
-│  │  │      └─vo
-│  │  │              CartProductVo.class
-│  │  │              CartVo.class
-│  │  │              OrderItemVo.class
-│  │  │              OrderProductVo.class
-│  │  │              OrderVo.class
-│  │  │              ProductDetailVo.class
-│  │  │              ProductListVo.class
-│  │  │              ShippingVo.class
 │  │  │              
 │  │  └─mappers
 │  │          CartMapper.xml
@@ -274,100 +181,6 @@
 │          │  │  logback.xml
 │          │  │  mmall.properties
 │          │  │  zfbinfo.properties
-│          │  │  
-│          │  ├─com
-│          │  │  ├─alipay
-│          │  │  │  └─demo
-│          │  │  │      └─trade
-│          │  │  │              DemoHbRunner.class
-│          │  │  │              Main$1.class
-│          │  │  │              Main.class
-│          │  │  │              
-│          │  │  └─mmall
-│          │  │      ├─common
-│          │  │      │      Const$AlipayCallback.class
-│          │  │      │      Const$Cart.class
-│          │  │      │      Const$OrderStatusEnum.class
-│          │  │      │      Const$PaymentTypeEnum.class
-│          │  │      │      Const$PayPlatformEnum.class
-│          │  │      │      Const$ProductListOrderBy.class
-│          │  │      │      Const$ProductStatusEnum.class
-│          │  │      │      Const$Role.class
-│          │  │      │      Const.class
-│          │  │      │      ResponseCode.class
-│          │  │      │      ServerResponse.class
-│          │  │      │      TokenCache$1.class
-│          │  │      │      TokenCache.class
-│          │  │      │      
-│          │  │      ├─controller
-│          │  │      │  ├─backend
-│          │  │      │  │      CategoryManageController.class
-│          │  │      │  │      OrderManageController.class
-│          │  │      │  │      ProductManageController.class
-│          │  │      │  │      UserManageController.class
-│          │  │      │  │      
-│          │  │      │  └─portal
-│          │  │      │          CartController.class
-│          │  │      │          OrderController.class
-│          │  │      │          ProductController.class
-│          │  │      │          ShippingController.class
-│          │  │      │          UserController.class
-│          │  │      │          
-│          │  │      ├─dao
-│          │  │      │      CartMapper.class
-│          │  │      │      CategoryMapper.class
-│          │  │      │      OrderItemMapper.class
-│          │  │      │      OrderMapper.class
-│          │  │      │      PayInfoMapper.class
-│          │  │      │      ProductMapper.class
-│          │  │      │      ShippingMapper.class
-│          │  │      │      UserMapper.class
-│          │  │      │      
-│          │  │      ├─pojo
-│          │  │      │      Cart.class
-│          │  │      │      Category.class
-│          │  │      │      Order.class
-│          │  │      │      OrderItem.class
-│          │  │      │      PayInfo.class
-│          │  │      │      Product.class
-│          │  │      │      Shipping.class
-│          │  │      │      User.class
-│          │  │      │      
-│          │  │      ├─service
-│          │  │      │  │  ICartService.class
-│          │  │      │  │  ICategoryService.class
-│          │  │      │  │  IFileService.class
-│          │  │      │  │  IOrderService.class
-│          │  │      │  │  IProductService.class
-│          │  │      │  │  IShippingService.class
-│          │  │      │  │  IUserService.class
-│          │  │      │  │  
-│          │  │      │  └─impl
-│          │  │      │          CartServiceImpl.class
-│          │  │      │          CategoryServiceImpl.class
-│          │  │      │          FileServiceImpl.class
-│          │  │      │          OrderServiceImpl$1.class
-│          │  │      │          OrderServiceImpl.class
-│          │  │      │          ProductServiceImpl.class
-│          │  │      │          ShippingServiceImpl.class
-│          │  │      │          UserServiceImpl.class
-│          │  │      │          
-│          │  │      ├─util
-│          │  │      │      BigDecimalUtil.class
-│          │  │      │      DateTimeUtil.class
-│          │  │      │      FTPUtil.class
-│          │  │      │      MD5Util.class
-│          │  │      │      PropertiesUtil.class
-│          │  │      │      
-│          │  │      └─vo
-│          │  │              CartProductVo.class
-│          │  │              CartVo.class
-│          │  │              OrderItemVo.class
-│          │  │              OrderProductVo.class
-│          │  │              OrderVo.class
-│          │  │              ProductDetailVo.class
-│          │  │              ProductListVo.class
-│          │  │              ShippingVo.class
 │          │  │              
 │          │  └─mappers
 │          │          CartMapper.xml
@@ -436,4 +249,4 @@
     │  
     └─WEB-INF
             web.xml
-            
+```
